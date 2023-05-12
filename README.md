@@ -6,3 +6,6 @@
 ```js
 let input = fs.readFileSync('./input.txt').toString().split('\n')
 ```
+
+* 파일 제목은 문제의 번호입니다.
+* 커밋메세지는 문제의 이름입니다.
