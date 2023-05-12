@@ -8,4 +8,3 @@ for (let i = 1; i <= count; i++){
 
     console.log(`Case #${i}: ${+key+ +value}`)
 }
-
