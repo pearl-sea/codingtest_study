@@ -11,6 +11,6 @@ for (let i = 2; i<count+2; i++){
 
 }
 
-console.log(total === sum ? 'Yes' : 'No');
+console.log(total === sum ? 'Yes' : 'No'); 
 
 
