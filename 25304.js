@@ -8,7 +8,6 @@ let sum = 0
 for (let i = 2; i<count+2; i++){
     let [price, num] = input[i].split(' ')
     sum += +price * +num
-
 }
 
 console.log(total === sum ? 'Yes' : 'No'); 
