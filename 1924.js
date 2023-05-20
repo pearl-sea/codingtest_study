@@ -18,17 +18,17 @@ for (let i = 1; i <= month; i++) {
   if (i > 1) {
     if (month31day.indexOf(i - 1) !== -1) {
       day += 31;
-    //   console.log(`+31일`)
+      // console.log(`+31일`)
     } else if (month30day.indexOf(i - 1) !== -1) {
       day += 30;
-    //   console.log(`+30일`)
+      // console.log(`+30일`)
     } else {
       day += 28;
-    //   console.log(`+28일`)
+      // console.log(`+28일`)
     }
   }
-//   console.log(`1월 ${day}일`)
-//   console.log(`-----------------`)
+  // console.log(`${i}월: 1월 ${day}일`)
+  // console.log(`-----------------`)
 }
 
 day % 7 === 1 ? (week = 'MON') : '';
