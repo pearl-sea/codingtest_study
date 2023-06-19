@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 
-const input = fs.readFileSync('./input.txt').toString().trim().split('\r\n');
+const input = fs.readFileSync('./input.txt').toString().trim().split('\n');
 const arr: string[] = input.slice(1);
 
 let output: string = '';
